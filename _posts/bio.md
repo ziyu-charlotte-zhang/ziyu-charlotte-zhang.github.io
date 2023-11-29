@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "About Me"
 layout: post
 ---
 I am a fourth-year undergraduate student in Computer Engineering at the University of Toronto.
