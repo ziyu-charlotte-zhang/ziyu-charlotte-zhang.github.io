@@ -12,7 +12,7 @@ I am a first-year PhD student at the [GrUVi Lab](https://gruvi.cs.sfu.ca/) at Si
 ## Publications
 
 <div class="publication">
-  <img src="images/architecture_correct.pdf" alt="Teaser Image 1" width="300">
+  <img src="../images/architecture_correct.jpg" alt="Teaser Image 1" width="300">
   <div class="pub-details">
     <h3><b>Prepared for the Worst: Resilience Analysis of the ICP Algorithm via Learning-Based Worst-Case Adversarial Attacks</b></h3>
     <p><b>Ziyu Zhang</b>, Johann Laconte, Daniil Lisus, Timothy D. Barfoot</p>
