@@ -1,6 +1,6 @@
 ---
 permalink: /
-# title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,6 +10,31 @@ redirect_from:
 I am a first-year PhD student at the [GrUVi Lab](https://gruvi.cs.sfu.ca/) at Simon Fraser University, advised by [Prof. Xue Bin (Jason) Peng](https://xbpeng.github.io/). My research is in computer graphics. Previously, I received a B.A.Sc degree in Computer Engineering from University of Toronto.
 
 ## Publications
+
+<div style="display: flex; gap: 20px; margin-top: 20px;">
+  <!-- Left Column for Images -->
+  <div style="flex: 50%;">
+    <img src="../images/architecture_correct.jpg" alt="Publication 1" style="width:100%; max-width: 400px; height: auto;">
+    <div style="height: 20px;"></div> <!-- Spacer -->
+    <img src="/images/image2.jpg" alt="Publication 2" style="width:100%; max-width: 400px; height: auto;">
+  </div>
+
+  <!-- Right Column for Descriptions -->
+  <div style="flex: 50%;">
+    <div style="margin-bottom: 40px;">
+      <b>Prepared for the Worst</b><br>
+      Author 1, Author 2, Author 3<br>
+      <em>Conference/Journal Name</em> (Year)<br>
+      [<a href="#">Project Page</a>] [<a href="#">PDF</a>] [<a href="#">Code</a>]
+    </div>
+    <div style="margin-bottom: 40px;">
+      <b>Title of Paper 2</b><br>
+      Author 1, Author 2, Author 3<br>
+      <em>Conference/Journal Name</em> (Year)<br>
+      [<a href="#">Project Page</a>] [<a href="#">PDF</a>] [<a href="#">Code</a>]
+    </div>
+  </div>
+</div>
 
 <!-- <div class="publication">
   <div class="pub-container">
@@ -25,5 +50,5 @@ I am a first-year PhD student at the [GrUVi Lab](https://gruvi.cs.sfu.ca/) at Si
   </div>
 </div> -->
 
-{% capture publications_content %}{{ site.pages['publications.html'].content }}{% endcapture %}
-{{ publications_content }}
+<!-- {% capture publications_content %}{{ site.pages['publications.html'].content }}{% endcapture %}
+{{ publications_content }} -->
