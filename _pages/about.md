@@ -25,4 +25,5 @@ I am a first-year PhD student at the [GrUVi Lab](https://gruvi.cs.sfu.ca/) at Si
   </div>
 </div> -->
 
-{% include publications.html %}
+{% capture publications_content %}{{ site.pages['publications.html'].content }}{% endcapture %}
+{{ publications_content }}
