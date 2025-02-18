@@ -22,10 +22,10 @@ I am a first-year PhD student at the [GrUVi Lab](https://gruvi.cs.sfu.ca/) at Si
   <!-- Right Column for Descriptions -->
   <div style="flex: 50%;">
     <div style="margin-bottom: 40px;">
-      <b>Prepared for the Worst</b><br>
-      Author 1, Author 2, Author 3<br>
-      <em>Conference/Journal Name</em> (Year)<br>
-      [<a href="#">Project Page</a>] [<a href="#">PDF</a>] [<a href="#">Code</a>]
+      <b>Prepared for the Worst: Resilience Analysis of the ICP Algorithm via Learning-Based Worst-Case Adversarial Attacks</b><br>
+      <b>Ziyu Zhang</b>, Johann Laconte, Daniil Lisus, Timothy D. Barfoot<br>
+      <em>ICRA</em> (2025)<br>
+      [<a href="https://arxiv.org/abs/2403.05666">PDF</a>]
     </div>
     <div style="margin-bottom: 40px;">
       <b>Title of Paper 2</b><br>
