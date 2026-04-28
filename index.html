@@ -52,6 +52,58 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="smp_stop()" onmouseover="smp_start()"  bgcolor="#ffffd0">
+      <td style="padding:16px;width:30%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='smp_image'><video  width=100% height=auto muted autoplay loop>
+          <source src="images/smp_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+
+          </video></div>
+        </div>
+        <script type="text/javascript">
+          function smp_start() {
+            document.getElementById('smp_image').style.opacity = "1";
+          }
+
+          function smp_stop() {
+            document.getElementById('smp_image').style.opacity = "1";
+          }
+          smp_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://yxmu.foo/smp-page/">
+          <span class="papertitle">SMP: Reusable Score-Matching Motion Priors for Physics-Based Character Control</span>
+        </a>
+        <br>
+        <a href="https://yxmu.foo/">Yuxuan Mu*</a>,
+        <strong>Ziyu Zhang*</strong>,
+        <a href="https://yi-shi94.github.io/">Yi Shi*</a>,
+        <a href="https://www.linkedin.com/in/dunyang/">Dun Yang</a>,
+        <a>Minami Matsumoto</a>,
+        <a>Kotaro Imamura</a>,
+        <a href="https://guytevet.github.io/">Guy Tevet</a>,
+        <a href="https://ericguo5513.github.io/">Chuan Guo</a>,
+        <a>Michael Taylor</a>,
+        <a>Chang Shu</a>,
+        <a>Pengcheng Xi</a>,
+        <a href="https://xbpeng.github.io/">Xue Bin Peng</a>
+        <br>
+        <em>SIGGRAPH</em>, 2026
+        <br>
+        <a href="https://yxmu.foo/smp-page/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2512.03028">arXiv</a>
+        /
+        <a href="https://github.com/xbpeng/MimicKit">code</a>
+        <p></p>
+        <p>
+          SMP is a reusable diffusion motion prior that can be used as style rewards for training diverse downstream controllers.
+        </p>
+      </td>
+    </tr>
+
     <tr onmouseout="add_stop()" onmouseover="add_start()"  bgcolor="#ffffd0">
       <td style="padding:16px;width:30%;vertical-align:middle">
         <div class="one">
